@@ -54,3 +54,21 @@ Then build the same way you would on Linux:
 meson setup --buildtype=release build
 ninja -C build
 ```
+
+## More previews of this based Gimp plugin used with other plugins of mine like Glossy Balloon and a linear light blend
+https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
+
+![image preview](epreview2.png )
+
+![image preview](epreview3.png )
+
+
+![image preview](epreview4mod.png )
+
+
+![image preview](epreview5mod.png )
+
+
+
+![image preview](epreview6mod.png )
+
