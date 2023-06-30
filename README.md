@@ -66,8 +66,6 @@ https://github.com/LinuxBeaver/GEGL-glossy-balloon-text-styling
 ![image preview](epreview4mod.png )
 
 
-![image preview](epreview5mod.png )
-
 
 
 ![image preview](epreview6mod.png )
