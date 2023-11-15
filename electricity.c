@@ -144,7 +144,6 @@ static void attach (GeglOperation *operation)
   gegl_operation_meta_redirect (operation, "tile_saturation", cubism, "tile-saturation");
   gegl_operation_meta_redirect (operation, "tile_size", cubism, "tile-size");
   gegl_operation_meta_redirect (operation, "iterations", mc, "iterations");
-  gegl_operation_meta_redirect (operation, "alpha", col, "value");
   gegl_operation_meta_redirect (operation, "oil", oil, "mask-radius");
   gegl_operation_meta_redirect (operation, "col", col, "value");
   gegl_operation_meta_redirect (operation, "opacity", opacity, "value");
@@ -170,7 +169,7 @@ gegl_op_class_init (GeglOpClass *klass)
   operation_class->attach = attach;
 
   gegl_operation_class_set_keys (operation_class,
-    "name",        "gegl:electricity",
+    "name",        "lb:electricity",
     "title",       _("Electricity over Alpha"),
     "categories",  "Aristic",
     "reference-hash", "2vedb6g36a28f25j0vvf05sb2ac",
