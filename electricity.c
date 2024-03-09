@@ -152,7 +152,7 @@ static void attach (GeglOperation *operation)
 
 
   gegl_node_link_many (input, alock, cubism, mc, oil, edge, c2a, blur, col, opacity, output, NULL);
-  gegl_node_connect_from (alock, "aux", plasma, "output");
+  gegl_node_connect (alock, "aux", plasma, "output");
 
 
 
