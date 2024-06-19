@@ -46,7 +46,7 @@ property_seed (seed, _("Internal cubism seed randomizer"), rand)
 
 property_double (transparency_threshold, _("Reduce Electricity effect"), 0.064)
     description(_("Threshold Alpha helps reduce the electricity effect"))
-    value_range (0.020, 0.600)
+    ui_range (0.020, 0.600)
 
 
 
